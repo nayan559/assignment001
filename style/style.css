@@ -54,11 +54,6 @@
     transition: .3s;
     cursor: pointer;
  }
- .button:hover{
-  background-color: #005FAC;
-  color: #fff;
-}
-
  .container{
    max-width: 1140px;
    margin: 0 auto;
@@ -95,12 +90,10 @@
     gap: 87px;
     align-items: center;
 }
- .failure-img{}
-.person-img{}
+
  .failure-content{
     padding-right: 100px;
 }
- .fail-title{}
  .fail-desc{
     padding: 24px 0 16px;
 }
@@ -121,7 +114,6 @@
  .plan-item{
     text-align: center;
 }
- .plan-item img{}
  .item-title{
     padding: 27px 0 16px;
 }
@@ -144,7 +136,6 @@
     padding-bottom: 24px;
     padding-right: 600px;
 }
- .cn-button{}
  /* Call Now Section CSS END */
 
 /* Blog Section CSS START */
@@ -158,7 +149,6 @@
     display: block;
     margin: 0 auto;
 }
-.heading {}
 .detail{
   padding-top: 20px;
 }
@@ -167,7 +157,10 @@
   display: flex;
   gap: 15px;
 }
-.news{background-color: #d9d9d9;border-radius: 10px;}
+.news{
+  background-color: #d9d9d9;
+  border-radius: 10px;
+}
 .news-img{
     border-radius: 10px;
 }
@@ -199,7 +192,6 @@
 .news-button{
     margin-top: 30px;
 }
-.news-detail p{}
 .news-detail a{
   color: #383838 !important;
   font-weight: 600;
@@ -208,7 +200,6 @@
   text-decoration: none;
 }
 /* Blog Section CSS END */
-
 
  /* Footer Section CSS START */
  .footer-section{
@@ -239,12 +230,10 @@
     text-decoration: none;
     color: #fff;
 }
- .social-icons{}
  .social-icons a{
     text-decoration: none;
     padding-right: 10px;
 }
-.footer-form{}
  .subs-title{
     color: #fff;
     font-size: 25px;
@@ -252,7 +241,6 @@
     line-height: 29px;
     padding-bottom: 30px;
 }
-form{}
 .form-input{
     padding: 21px 75px 21px 20px;
     background-color: #fff0;
@@ -264,10 +252,6 @@ form{}
     margin-top: 15px;
     background-color: #005FAC;
     color: #fff;
-}
-.form-button:hover{
-  background-color: #fff;
-  color: #005FAC;
 }
  /* Footer Section CSS END */
  
