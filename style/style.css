@@ -1,0 +1,273 @@
+
+/* Global CSS START */
+*{
+  margin: 0;
+  font-family: 'Work Sans';
+ }
+ p{
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   color: #000000;
+ }
+ h1, h2, h3{}
+ h1 {
+   font-size: 65px;
+   font-weight: 700;
+   line-height: 76px;
+ }
+ h2 {
+   font-size: 40px;
+   line-height: 47px;
+   font-weight: 700;
+ }
+ h3 {
+   font-size: 30px;
+   line-height: 35px;
+   font-weight: 700;
+ }
+ h4{
+  font-size: 25px;
+  line-height: 29px;
+  font-weight: 500;
+ }
+ ul{
+  padding: 0;
+ }
+ ul li{
+  list-style: none;
+  padding-bottom: 10px;
+ }
+ ul li i{
+  color: #1bff00;
+ }
+ section{}
+ .button{
+    background-color: #ffffff;
+    height: 64px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #005FAC;
+    border-radius: 5px;
+    border: 0px;
+    padding: 20px 25px;
+    transition: .3s;
+    cursor: pointer;
+ }
+ .button:hover{
+  background-color: #005FAC;
+  color: #fff;
+}
+
+ .container{
+   max-width: 1140px;
+   margin: 0 auto;
+ }
+ /* Global CSS END */
+ 
+ /* Banner Section CSS START  */
+ .banner-section{
+   background-image: url(../images/banner/banner3.png);
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+ .banner-content{
+  text-align: right;
+  margin-left: 56%;
+  padding: 267px 0;
+}
+ .bn-title{
+    color: #fff;
+}
+ .bn-desc{
+    color: #fff;
+    padding: 24px 0 32px;
+}
+ .bn-button{}
+ /* Banner Section CSS END  */
+
+ /* My failures Section CSS START  */
+ .failure-section{
+    padding: 130px 0 0;
+}
+.failure{
+    display: flex;
+    gap: 87px;
+    align-items: center;
+}
+ .failure-img{}
+.person-img{}
+ .failure-content{
+    padding-right: 100px;
+}
+ .fail-title{}
+ .fail-desc{
+    padding: 24px 0 16px;
+}
+ /* My failures Section CSS END  */
+
+ /* My Plans Section CSS START */
+ .my-plan-section{
+    padding: 130px 0 0;
+}
+ .plan-title{
+    text-align: center;
+}
+ .my-plan-items{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+ .plan-item{
+    text-align: center;
+}
+ .plan-item img{}
+ .item-title{
+    padding: 27px 0 16px;
+}
+ .item-text{
+    color: #737272;
+}
+ /* My Plans Section CSS END */
+
+ /* Call Now Section CSS START */
+ .call-now-section{
+    padding: 130px 0;
+}
+ .call-now-banner{
+  background-image: linear-gradient(45deg, #096edb, transparent), url(../images/watch.png);
+  padding: 59px 0px 59px 64px;
+  border-radius: 10px;
+ }
+ .cn-title{
+    color: #fff;
+    padding-bottom: 24px;
+    padding-right: 600px;
+}
+ .cn-button{}
+ /* Call Now Section CSS END */
+
+/* Blog Section CSS START */
+.latest-news-section{
+  background: url(../images/geometry2.png);
+  padding: 130px 0;
+}
+.last-news-heading{
+    text-align: center;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.heading {}
+.detail{
+  padding-top: 20px;
+}
+.all-news{
+  padding-top: 50px;
+  display: flex;
+  gap: 15px;
+}
+.news{background-color: #d9d9d9;border-radius: 10px;}
+.news-img{
+    border-radius: 10px;
+}
+.news-img img{
+  max-width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+.news-detail{
+    padding: 30px 25px;
+    height: 370px;
+}
+.border{
+  padding: 10px 20px;
+}
+.news-detail h4{
+    color: #383838;
+    padding-bottom: 10px;
+}
+.news-detail .date{
+    font-size: 16px;
+    font-weight: 600;
+}
+.date span{
+    color: #005fac;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.news-button{
+    margin-top: 30px;
+}
+.news-detail p{}
+.news-detail a{
+  color: #383838 !important;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+/* Blog Section CSS END */
+
+
+ /* Footer Section CSS START */
+ .footer-section{
+  background-color: #151414;
+  padding: 130px 0;
+}
+ .footer-items{
+    display: flex;
+}
+.footer-info{
+    padding-right: 37%;
+}
+ .footer-title{
+    color: #fff;
+}
+ .footer-text{
+  color: #fff;
+  margin-top: 18px;
+  margin-bottom: 20px;
+}
+ .footer-contact{
+    padding-bottom: 30px;
+}
+ .footer-contact li{
+    color: #fff;
+}
+ .footer-contact li a{
+    text-decoration: none;
+    color: #fff;
+}
+ .social-icons{}
+ .social-icons a{
+    text-decoration: none;
+    padding-right: 10px;
+}
+.footer-form{}
+ .subs-title{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 29px;
+    padding-bottom: 30px;
+}
+form{}
+.form-input{
+    padding: 21px 75px 21px 20px;
+    background-color: #fff0;
+    border: 1px solid #767676;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.form-button{
+    margin-top: 15px;
+    background-color: #005FAC;
+    color: #fff;
+}
+.form-button:hover{
+  background-color: #fff;
+  color: #005FAC;
+}
+ /* Footer Section CSS END */
+ 
